@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/kintone/js-sdk/%40kintone/plugin-manifest-validator%4010.2.0/packages/plugin-manifest-validator/manifest-schema.json",
+  "manifest_version": 1,
+  "version": "0.1.0",
+  "type": "APP",
+  "name": {
+    "en": "kintoneNameToStamp",
+    "ja": "Kintone ユーザー選択ハンコ表示"
+  },
+  "description": {
+    "en": "kintoneNameToStamp",
+    "ja": "Kintone ユーザー選択をハンコの様に表示"
+  },
+  "icon": "image/icon.png",
+  "homepage_url": {
+    "en": "https://github.com/noz-23/kintoneNameToStamp",
+    "ja": "https://github.com/noz-23/kintoneNameToStamp"
+  },
+  "desktop": {
+    "js": [
+      "https://js.cybozu.com/jquery/3.7.1/jquery.min.js",
+      "https://js.cybozu.com/jsrender/1.0.13/jsrender.min.js",
+      "js/desktop.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/desktop.css"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "https://js.cybozu.com/jquery/3.7.1/jquery.min.js",
+      "https://js.cybozu.com/jsrender/1.0.13/jsrender.min.js",
+      "js/config.js"
+    ],
+    "css": [
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+      "paramCountRow"
+    ]
+  }
+}

@@ -1,24 +1,35 @@
-# KintoneInKintone
+# KintoneNameToStamp
 
-## Kintoneの詳細表示に別の詳細表示プラグイン
+## Kintoneのユーザー選択をハンコ表示プラグイン
 
 ## 1.概要
 
-Kintoneの詳細表示をリンクで指定した別のKintone詳細表示するプラグインです。
+Kintoneのユーザー選択表示をハンコの様にするプラグインです。
 
-別のKintoneの詳細のコメント表示等の表示内容は変更出来ます。
+「名字のみ」「名字と名前1文字」「設定画像」を選択できます。
+
+名字と名前はユーザー管理画面の値となります。
 
 ### イメージ
 
-　![KintoneInKintone](https://github.com/noz-23/KintoneInKintone/assets/160399039/8c149c40-d4fd-4c99-a41a-b194141dcadc)
+設定画面
+
+![kintoneNameToStamp_01](https://github.com/user-attachments/assets/489f9a55-c942-4baa-bdaa-45400c80727d)
+
+
+変更後画面
+![kintoneNameToStamp_02](https://github.com/user-attachments/assets/3fb5bdfc-0c96-4a1c-a167-974ed939b74b)
+
 
 ## 2.注意点
 
-別のKintoneの表示は、下部固定です。
+現状のハンコサイズは100px x 100 px 固定です。
+
+表示位置は左揃えになります。
 
 ## 3.今後
 
-別のKintone(iframe)表示の内容はcssに変更しようと思います。
+ハンコサイズや右揃えなど変えれらる様にしたいとは思います。
 
 ## 4.ライセンス
 
@@ -38,17 +49,8 @@ jsrender :https://www.jsviews.com
 
 ## 6.バージョン履歴
 
- 2024/03/10 0.1.0 初版 とりあえずバージョンの作成
+ 2024/10/27 0.1.0 初版 とりあえずバージョンの作成
  
- 2024/03/12 0.1.1 表示の不具合修正
-
- 2024/03/24 0.2.0 プラグイン設定画面に Google AdSense 追加
-
- 2024/04/17 0.2.1 許可値の不具合修正
-
- 2024/08/01 0.2.2 設定htmlのチェック表示のクラス変更
-
- 2024/09/07 0.2.3 URLの設定方法を変更
  
 ## 7.連絡
 
